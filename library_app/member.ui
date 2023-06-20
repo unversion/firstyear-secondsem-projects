@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>LibraryApp</class>
+    <widget class="QDialog" name="LibraryApp">
+        <property name="windowTitle">
+            <string>Library App</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="lblMemberName">
+                    <property name="text">
+                        <string>Member Name:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtMemberName"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblMemberPhone">
+                    <property name="text">
+                        <string>Member Phone:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtMemberPhone"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblMemberEmail">
+                    <property name="text">
+                        <string>Member Email:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtMemberEmail"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblMembershipStatus">
+                    <property name="text">
+                        <string>Membership Status:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtMembershipStatus"/>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnAddMember">
+                    <property name="text">
+                        <string>Add Member</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnUpdateMember">
+                    <property name="text">
+                        <string>Update Member</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnDeleteMember">
+                    <property name="text">
+                        <string>Delete Member</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QTableWidget" name="tableMembers">
+                    <property name="rowCount">
+                        <number>0</number>
+                    </property>
+                    <property name="columnCount">
+                        <number>5</number>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

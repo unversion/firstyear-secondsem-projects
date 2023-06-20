@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>LibraryApp</class>
+    <widget class="QDialog" name="LibraryApp">
+        <property name="windowTitle">
+            <string>Library App</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="lblBookTitle">
+                    <property name="text">
+                        <string>Book Title:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtBookTitle"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblBookAuthor">
+                    <property name="text">
+                        <string>Book Author:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtBookAuthor"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblPublicationYear">
+                    <property name="text">
+                        <string>Publication Year:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtPublicationYear"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblBookAvailability">
+                    <property name="text">
+                        <string>Book Availability:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtBookAvailability"/>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnAddBook">
+                    <property name="text">
+                        <string>Add Book</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnUpdateBook">
+                    <property name="text">
+                        <string>Update Book</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnDeleteBook">
+                    <property name="text">
+                        <string>Delete Book</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QTableWidget" name="tableBooks">
+                    <property name="rowCount">
+                        <number>0</number>
+                    </property>
+                    <property name="columnCount">
+                        <number>5</number>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

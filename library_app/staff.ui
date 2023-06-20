@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>LibraryApp</class>
+    <widget class="QDialog" name="LibraryApp">
+        <property name="windowTitle">
+            <string>Library App</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="lblStaffName">
+                    <property name="text">
+                        <string>Staff Name:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtStaffName"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblStaffPhone">
+                    <property name="text">
+                        <string>Staff Phone:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtStaffPhone"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblStaffEmail">
+                    <property name="text">
+                        <string>Staff Email:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtStaffEmail"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblPosition">
+                    <property name="text">
+                        <string>Position:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="txtPosition"/>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnAddStaff">
+                    <property name="text">
+                        <string>Add Staff</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnUpdateStaff">
+                    <property name="text">
+                        <string>Update Staff</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnDeleteStaff">
+                    <property name="text">
+                        <string>Delete Staff</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QTableWidget" name="tableStaff">
+                    <property name="rowCount">
+                        <number>0</number>
+                    </property>
+                    <property name="columnCount">
+                        <number>5</number>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
